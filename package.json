@@ -1,0 +1,16 @@
+{
+  "name": "menu_projetos",
+  "version": "1.0.0",
+  "description": "Projeto que unificará todos os apps desenvolvidos em aula, para facilitar a consulta.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "projeto",
+    "menu",
+    "organização"
+  ],
+  "author": "Ana Clara Lobo Silveira",
+  "license": "ISC"
+}
