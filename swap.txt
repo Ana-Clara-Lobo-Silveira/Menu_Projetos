@@ -1,1 +1,9 @@
 json: Intercâmbio de arquivos, todos conseguem ler esse arquivo independente da linguagem.
+
+
+emmet
+
+() --> Envelopar os comandos do Emmet
+{} --> Criar texto dentro do elemento
+[] --> Incluir atributos no elemento
+^ --> Subir de nível
