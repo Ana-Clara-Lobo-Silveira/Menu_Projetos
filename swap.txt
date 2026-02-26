@@ -1,0 +1,1 @@
+json: Intercâmbio de arquivos, todos conseguem ler esse arquivo independente da linguagem.
