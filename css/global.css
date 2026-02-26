@@ -1,0 +1,18 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* VARIÁVEIS */
+:root{
+    --primary-color: #002faf;
+    --primary-hover: #003feb;
+    --bg-color: #b2c3f0;
+    --text-color: #001653;
+    --white: #ffffff;
+    --shadow: 0 4px 6px -1px rgba(0,0,0,0.1),    0 2px 4px -2px rgba(0,0,0,0.1);
+    --radius: 8px;
+    --font-main :"Times New Roman", sans-serif;
+}
