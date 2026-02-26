@@ -7,3 +7,10 @@ emmet
 {} --> Criar texto dentro do elemento
 [] --> Incluir atributos no elemento
 ^ --> Subir de nível
+
+
+
+ANOTAÇÕES:
+- CARRO = OBJETO
+- FUNÇÃO = ACELERAR --  QUANDO COLOCADO DENTRO DO CARRO SE TORNA UM MÉTODO
+- VELOCIDADE = PRA ELE ACELERAR ELE PRECISA DE VELOCIDADE -- PARAMETRO (QUANDO DEFINIDO SE TORNA UM ARGUMENTO)
