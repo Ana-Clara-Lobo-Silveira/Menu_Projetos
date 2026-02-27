@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: inherit;
 }
 
 /* VARIÁVEIS */
@@ -15,4 +16,42 @@
     --shadow: 0 4px 6px -1px rgba(0,0,0,0.1),    0 2px 4px -2px rgba(0,0,0,0.1);
     --radius: 8px;
     --font-main :"Merriweather", sans-serif;
+}
+
+body{
+    font-family: var(--font-main);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.project__header h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+}
+
+.project__button-group input[type="button"], button{
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: var(--radius);
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease;
+}
+
+.project__button-group input[type="button"]:hover, button:hover{
+    background-color: var(--primary-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0 0 0/0.1);
 }
