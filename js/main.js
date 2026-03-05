@@ -2,7 +2,7 @@
 const btnP1 = document.querySelector('#inputP1');
 const btnP2 = document.querySelector('#inputP2');
 const btnP3 = document.querySelector('#inputP3');
-// const btnP4 = document.querySelector('#inputP4');
+const btnP4 = document.querySelector('#inputP4');
 
 btnP1.addEventListener('click', function(){
     window.location.href='./pages/projeto01.html'
@@ -16,10 +16,10 @@ btnP3.addEventListener('click', function(){
     window.location.href='./pages/projeto03.html'
 });
 
-// btnP4.addEventListener('click', function(){
-//     window.location.href='./pages/projeto04-teste.html'
-// }
-// );
+btnP4.addEventListener('click', function(){
+    window.location.href='./pages/projeto04-teste.html'
+}
+);
 
 // function uva(){
 //     return 'Sou uma fruta'

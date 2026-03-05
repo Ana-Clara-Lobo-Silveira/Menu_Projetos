@@ -5,9 +5,32 @@ console.log(botoesProjeto);
 
 if (botoesProjeto.length > 0){
     botoesProjeto.forEach((botao, index) => {
-        criarBotaoVoltar.addEventListener('click', () => {
+        botao.addEventListener('click', () => {
+// Retorna os valores do elemento(btnP1) e do index(0), ao index adiciona 1 (0+1 = 1 (numeração definida no projeto)), transforma em string, define dois caracteres para retorno, e adiciona 0 como o primeiro (01).
             const nProjeto = (index+1).toString().padStart(2,'0');
-            window.location.href = './pages/projeto${nProjeto}.html';
+            window.location.href = `./pages/projeto${nProjeto}.html`;
         });
     });
 }
+
+
+criarBotaoVoltar = () => {
+    const btnVoltar = document.createElement('button');
+    btnVoltar.innerText = 'Voltar';
+// Criar uma classe que posteriormente poderá ser plicada ao CSS, por hora apenas assume a formatação normal do botão;
+    btnVoltar.className = 'btn-navegacao';
+    btnVoltar.style.backgroundColor ='yellow';
+    
+    btnVoltar.addEventListener('click', () => {
+        window.location.href = '../index.html';
+    });
+
+    document.body.appendChild(btnVoltar);
+ };
+
+//  Se a lista de botoes estiver vazia, significa que esta em uma pagina interna de projeto e não no index.
+ if (botoesProjeto.length === 0){
+    window.addEventListener('load', () => {
+        criarBotaoVoltar();
+    })
+ }

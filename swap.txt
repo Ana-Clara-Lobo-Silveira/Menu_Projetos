@@ -18,3 +18,6 @@ ANOTAÇÕES(26/02):
 ______________________________________________________________________________________________________________________________________
 
 ANOTAÇÕES(05/03):
+
+querySelectorAll -> Consulta os botôes(especificamente) dentro da classe definida para proura.
+forEach -> Método para trabalhar com elementos de nodelist (somente). Retorna um elemento, o index ou completo (parâmetros para que o forEach funcione).
