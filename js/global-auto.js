@@ -24,8 +24,11 @@ criarBotaoVoltar = () => {
     btnVoltar.addEventListener('click', () => {
         window.location.href = '../index.html';
     });
+    // document.body.appendChild(btnVoltar);
+//Como o conteúdo está no main ao invés do body, utiliza-se o queryselector(retorna um unico elemento, o primeiro da página) para buscar o main da página.
 
-    document.body.appendChild(btnVoltar);
+    const main = document.querySelector('main')
+    main.appendChild(btnVoltar);
  };
 
 //  Se a lista de botoes estiver vazia, significa que esta em uma pagina interna de projeto e não no index.
